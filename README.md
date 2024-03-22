@@ -18,6 +18,21 @@ Starting Server
 nodemon app.js
 ```
 
+## MongoDB Database URL Setup
+- Please follow the steps below to get started with MongoDB:
+
+1. Go to MongoDB website https://cloud.mongodb.com/ and sign up for an account.
+2. Create a cluster and set it up.
+3. Set up a username and password by clicking "Database Access" and "Setup Network" by clicking "Network Access".
+4. Lastly, add the IP address 0.0.0.0/0 in Network Access.
+5. In the cluster, click on "Connect" and set up the connection string accordingly.
+6. Copy the link provided under "Add your connection string into your application code" and paste it into the application.
+
+- ![image](https://github.com/RishabhSoni01/GyanGrove_Assignment/assets/80063042/0e9813de-2692-4de9-81dc-0b7cd458e636)
+- ![image](https://github.com/RishabhSoni01/GyanGrove_Assignment/assets/80063042/c0b8cc25-e9ee-4afa-b247-4c8aa7003a9f)
+
+
+
 ## Data Creation API:
 - The endpoint / handles POST requests to create a new event.
 - It expects the request body to contain details of the event, including the event name, city name, date, time, latitude, and longitude.
